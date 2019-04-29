@@ -15,6 +15,6 @@ class ContactController extends AbstractController
      */
     public function index(): JsonResponse
     {
-        return new JsonResponse(['email' => [1,2]]);
+        return new JsonResponse(['email' => ['email@1.pl','email@2.pl']]);
     }
 }
