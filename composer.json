@@ -58,5 +58,8 @@
             "allow-contrib": false,
             "require": "4.2.*"
         }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "4.2.*"
     }
 }
